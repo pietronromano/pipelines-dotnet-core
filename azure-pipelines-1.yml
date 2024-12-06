@@ -25,4 +25,5 @@ steps:
     azureSubscription: 'ARMa2401'
     appType: 'webAppLinux'
     appName: 'pnrdevopswebapp'
+    runtimeStack: 
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
