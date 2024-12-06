@@ -17,6 +17,7 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: true
+    zipAfterPublish: true
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'ARMa2401'
